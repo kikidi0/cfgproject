@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.outer {
+    background-color: brown;
+    width: 30%;
+    margin: 10px auto;
+    padding: 5px 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.inner {
+    background-color: white;
+    width: 90%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 4px solid cornflowerblue;
+}
+
+.gap-bottom {
+    margin-bottom: 20px;
+}
+
+.gap-top {
+    margin-top: 30px;
+}
+
+.rounded-20 {
+    border-radius: 20px;
+}
+
+.login-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: black;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.form-input {
+    width: 60%;
+    height: 40px;
+    background-color: #fafaf4;
+    border-radius: 5px;
+    border-width: 1;
+    padding-left: 30px;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+.form-btn {
+    width: 50%;
+    height: 40px;
+    border-radius: 15px;
+    border: 1.5px solid black;
+    background-color: #87ceed;
+    border-width: 1;
+    padding-left: 10px;
+    margin-right: 100px;
+}
+
+.rounded-10 {
+    border-radius: 15px;
+}
+
+.email {
+    background-image: url(./user-solid.svg);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 20px;
+}
+
+.password {
+    background-image: url(./lock-solid.svg);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 20px;
+}
+
+.text-light {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+
+.form-btn:hover {
+    background-color: brown;
+    opacity: 0.5px;
+}
+
+.text-light {
+    color: black;
+}
+
+.account-link {
+    color: blue;
+}
+
+.account-link:hover {
+    background-color: black;
+}
+
+input:focus {
+    outline: 1px solid red;
+}
